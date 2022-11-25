@@ -16,6 +16,7 @@ export default class imgApiService {
         this.gallery = new SimpleLightbox('.gallery a', {});
     };
 
+    
     async fetchSearchImg() {
         try {
             const options = {
